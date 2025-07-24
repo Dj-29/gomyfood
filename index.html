@@ -4,39 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GoMyfood</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
   <body>
-    <h1>Welcome to GoMyfood</h1>
+    <nav>
+      <h4>GoMyfood</h4>
+      <div>
+        <a href="#hero">Home</a>
+        <a href="#services">services</a>
+        <a href="#socials">socials</a>
+      </div>
+    </nav>
+
     <main>
-      <section>
+      <section id="hero">
+        <div><h1>Welcome to GoMyfood</h1></div>
         <a href="services/"><button>Click here</button> </a>
+
+        <p>
+          <mark>Your</mark> <sup>one stop</sup> <b> solution</b> for
+          <strong>food delivery! </strong>
+        </p>
       </section>
-      <img
-        src="/images/WhatsApp Image 2025-07-17 à 10.53.51_b013c598.jpg"
-        alt="a sandwich"
-      />
-      <p>
-        <mark>Your</mark> <sup>one stop</sup> <b> solution</b> for
-        <strong>food delivery! </strong>
-      </p>
       <h3>Our services :</h3>
       <ol>
         <li>Coffe</li>
         <li>pizza</li>
         <li>tacos</li>
       </ol>
-      <h3>Join us on :</h3>
-      <ul>
-        <li>
-          <a href=" https://www.facebook.com" target="_blank">Facebook</a>
-        </li>
-        <li>Youtoub</li>
-        <li>tiktok</li>
-      </ul>
+      <section id="socials">
+        <h3>Join us on :</h3>
+        <div class="social-logos">
+          <a href=" https://www.facebook.com" target="_top">
+            <img src="images/facebook.png" alt="facebook logo" />
+          </a>
+          <a href=" https://youtube.com" target="_top">
+            <img src="images/youtube.png" alt="youtube logo" />
+          </a>
+          <a href=" https://www.tiktok.com" target="_top">
+            <img src="images/tiktok.png" alt="tiktok logo" />
+            /></a
+          >
+        </div>
+      </section>
+
       <section id="prices">
         <table>
           <tr>
-            <th>products</th>
+            <th>products;</th>
             <th>ingredients</th>
             <th>prices</th>
           </tr>
